@@ -27,11 +27,12 @@ from . import (lang_AM, lang_AR, lang_AZ, lang_BE, lang_BN, lang_CA, lang_CE,
                lang_PT, lang_PT_BR, lang_RO, lang_RU, lang_SK, lang_SL,
                lang_SR, lang_SV, lang_TE, lang_TET, lang_TG, lang_TH, lang_TR,
                lang_UK, lang_VI, lang_ZH, lang_ZH_CN, lang_ZH_HK, lang_ZH_TW)
-
+from .lang_BG import Num2Word_BG
 CONVERTER_CLASSES = {
     'am': lang_AM.Num2Word_AM(),
     'ar': lang_AR.Num2Word_AR(),
     'az': lang_AZ.Num2Word_AZ(),
+    'bg': Num2Word_BG(),
     'be': lang_BE.Num2Word_BE(),
     'bn': lang_BN.Num2Word_BN(),
     'ca': lang_CA.Num2Word_CA(),
